@@ -1,0 +1,58 @@
+Text styles
+
+<style>
+  .text-title{
+    font-family:Arial;
+    font-size: 18px;
+    font-weight: bold;
+    width:300px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+</style>
+
+<style>
+    .text-stats {
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+</style>
+
+<style>
+    .text-author {
+        font-family: Arial;
+        color: rgb(96, 96, 96);
+        font-size: 15px;
+        margin-top:0;
+        margin-bottom: 20px;
+    }
+</style>
+
+<style>
+    .text-description {
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width:300px;
+        line-height: 22px;
+        margin-top: 0;
+    }
+</style>
+<p class="text-title">
+Elon Musk made $175.8 million when PayPal was sold to eBay in October 2002.
+</p>
+
+<p class="text-stats">
+    4B$ net worth  &#183; 2 months ago
+</p>
+
+<p class="text-author">
+    Colin Brownlee &#10003;
+</p>
+
+<p class="text-description">
+    A member of the wealthy South African Musk family, Musk was born in Pretoria and briefly attended the University of Pretoria before immigrating to Canada at age 18, acquiring citizenship through his Canadian-born mother. 
+</p>
