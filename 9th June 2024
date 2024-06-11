@@ -1,0 +1,31 @@
+Underlining the text in HTML
+
+<style>
+    .underline-text {
+      font-family: Arial;
+      background-color: rgba(255, 0, 0, 0.46) ;
+      color: white;
+      font-size: 13px;
+      text-align: center;
+      padding-top: 15px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-right: 15px;
+    }
+
+    .span-example:hover {
+        text-decoration: underline;
+    }
+
+    .your-text {
+        cursor:pointer;
+    }
+
+    .your-text:hover {
+     text-decoration: underline;
+    }
+</style>
+
+<p class ="underline-text">
+    Super cool unicode text magic. Underline <span class = "your-text">your text</span> on Facebook, Twitter, and everywhere else.
+</p>
