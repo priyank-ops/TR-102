@@ -1,0 +1,51 @@
+Loops in HTML
+
+!DOCTYPE html>
+<html>
+  <head>
+    <title>Training</title>
+  </head>
+  
+
+    <body>
+      <script>
+        var a = 10;
+        for(var a =1;a<=10;a++){
+	document.write("Hello javascript<br>");
+	}
+      </script>
+    </body>
+  
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Counting</title>
+    </head>
+    <body>
+        <script>
+           let start = 1; 
+        let end = 10; 
+
+for (let v = start; v <= end; v++) {
+    if (v % 2 === 0) {
+        document.write(v + " is even <br>");
+    } else {
+        document.write(v + " is odd <br>");
+    }
+}
+        </script>
+    </body>
+</html>
+<div style="text-align: center;">
+    NAME:<input type="text" id="nam">
+    <button onclick="check()">REGISTER</button>
+    <h1 id="result"></h1>
+   </div>
+   
+   <script>
+   function check(){
+       var a=document.getElementById('nam').value
+       alert("Welcome "+a)
+   }
