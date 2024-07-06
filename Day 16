@@ -1,0 +1,135 @@
+Made the following buttons:
+
+import logo from './logo.svg';
+import './App.css';
+import './App.css';
+
+import Home from './Home';
+import { useState } from 'react';
+
+
+
+function App() {
+//useState hook
+
+const[count,setCount]=useState(100);
+
+const IncNum=()=>{
+  setCount(count+2)
+}
+
+  return (
+    <>
+    <center>
+ <h1>{count}</h1>
+ <button onClick={IncNum}>add</button>
+ </center>
+ 
+
+    </>
+  );
+}
+
+export default App;
+
+
+import logo from './logo.svg';
+import './App.css';
+import './App.css';
+
+import Home from './Home';
+import { useState } from 'react';
+
+
+
+function App() {
+//useState hook
+
+const[count,setCount]=useState(10);
+
+const IncNum=()=>{
+  setCount(count-1)
+}
+
+  return (
+    <>
+    <center>
+ <h1>{count}</h1>
+ <button onClick={IncNum}>substract</button>
+ </center>
+ 
+
+    </>
+  );
+}
+
+export default App;
+
+import logo from './logo.svg';
+import './App.css';
+import './App.css';
+
+import Home from './Home';
+import { useState } from 'react';
+
+
+
+function App() {
+//useState hook
+
+const[count,setCount]=useState(1);
+
+const IncNum=()=>{
+  setCount(count*2)
+}
+
+  return (
+    <>
+    <center>
+ <h1>{count}</h1>
+ <button onClick={IncNum}>multiply</button>
+ </center>
+ 
+
+    </>
+  );
+}
+
+export default App;
+
+
+import logo from './logo.svg';
+import './App.css';
+import './App.css';
+
+import Home from './Home';
+import { useState } from 'react';
+
+
+
+function App() {
+//useState hook
+
+const[count,setCount]=useState(100);
+
+const IncNum=()=>{
+  setCount(count/2)
+}
+
+  return (
+    <>
+    <center>
+ <h1>{count}</h1>
+ <button onClick={IncNum}>divide</button>
+ </center>
+ 
+
+    </>
+  );
+}
+
+export default App;
+
+
+
+
