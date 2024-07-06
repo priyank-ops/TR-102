@@ -1,0 +1,25 @@
+Basics of Javascript
+
+console.log("Hello, World!");
+var name = "Priyanka Lochan"; // var is function-scoped
+let age = 19;      // let is block-scoped
+const isStudent = true; // const is block-scoped and read-only
+// Function Declaration
+function greet() {
+    console.log("Hello!");
+}
+
+// Function Expression
+const greetAgain = function() {
+    console.log("Hello again!");
+};
+
+// Arrow Function
+const greetArrow = () => {
+    console.log("Hello with arrow function!");
+};
+
+greet();
+greetAgain();
+greetArrow();
+
