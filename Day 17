@@ -1,0 +1,70 @@
+Conditional statements in Java script
+
+let temperature = 25;
+
+if (temperature > 20) {
+    console.log("It's warm outside.");
+}
+
+let temperature = 15;
+
+if (temperature > 20) {
+    console.log("It's warm outside.");
+} else {
+    console.log("It's cool outside.");
+}
+
+let temperature = 30;
+
+if (temperature > 30) {
+    console.log("It's very hot outside.");
+} else if (temperature > 20) {
+    console.log("It's warm outside.");
+} else if (temperature > 10) {
+    console.log("It's cool outside.");
+} else {
+    console.log("It's cold outside.");
+}
+
+let temperature = 25;
+let isSunny = true;
+
+if (temperature > 20) {
+    if (isSunny) {
+        console.log("It's warm and sunny outside.");
+    } else {
+        console.log("It's warm but not sunny outside.");
+    }
+} else {
+    console.log("It's not warm outside.");
+}
+
+let day = "Monday";
+
+switch (day) {
+    case "Monday":
+        console.log("Start of the work week.");
+        break;
+    case "Tuesday":
+        console.log("Second day of the work week.");
+        break;
+    case "Wednesday":
+        console.log("Middle of the work week.");
+        break;
+    case "Thursday":
+        console.log("Almost the weekend.");
+        break;
+    case "Friday":
+        console.log("Last day of the work week.");
+        break;
+    case "Saturday":
+    case "Sunday":
+        console.log("Weekend!");
+        break;
+    default:
+        console.log("Invalid day.");
+}
+
+let age = 18;
+let canVote = (age >= 18) ? "Yes, can vote." : "No, cannot vote.";
+console.log(canVote);
