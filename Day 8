@@ -1,0 +1,34 @@
+CSS Display Property
+
+input {
+  display: block;
+  margin-bottom: 2px;
+}
+
+<html>
+  <head>
+    <link rel="stylesheet" href="8a.css">
+  </head>
+  <body>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Email">
+  </body>
+</html>
+
+p {
+  display: inline-block;
+  width: 250px;
+  vertical-align: middle;
+}
+<html>
+  <head>
+    <link rel="stylesheet" href="8b.css">
+  </head>
+  <body>
+    <p>
+      Thanks for chatting with our customer support. Would you like to take our quick survey?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+  </body>
+</html>
